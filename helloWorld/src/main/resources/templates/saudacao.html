@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Aplicação de Saudação</title>
+</head>
+<body>
+	<p><h1 th:text="'Hello, ' + ${nome} + '!'"/></p>
+	<p><a href="/saudacao?nome=João">Cumprimentar o João</a></p>
+	<p><a href="/saudacao?nome=Maria">Cumprimentar a Maria</a></p>
+	<p><a href="/saudacao?nome=Fernando">Cumprimentar o Fernando</a></p>
+	<p><a href="/saudacao?nome=Paulo">Cumprimentar o Paulo</a></p>
+	<p><a href="/">HOME</a></p>
+</body>
+</html>
