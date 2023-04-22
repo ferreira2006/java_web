@@ -6,5 +6,10 @@
 </head>
 <body>
 	<p>Para acessar a aplicação <a href="/saudacao">CLIQUE AQUI</a></p>
+	<!-- O spring framework irá fazer uma requisicao HTTP GET no endpoint (/saudação) sem parêmetros.
+		Em nosso aplicativo ele irá localizar no HellorWorldController.java o método 
+		ola(String nome, Model model) que foi anotado para ser executado neste endereço.
+		Como não foi passado nenhum parâmento, ele vai atribuir o valor "World" para a váriavel nome
+	 -->
 </body>
 </html>

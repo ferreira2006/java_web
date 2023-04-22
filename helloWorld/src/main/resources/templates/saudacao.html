@@ -1,11 +1,24 @@
 <!DOCTYPE html>
+<!-- adiconamos os "poderes" do Thymeleaf para serem usados neste aquivo HTML -->
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Aplicação de Saudação</title>
 </head>
 <body>
+	<!-- th:text já é o Thymeleaf trabalhando em associação com o spring,
+	 ele se comunica com o HelloWorldControler.java e recebe via HTML POST
+	 o conteúdo da váriável nome quando esta página for retornada ao navegador		
+	 -->
 	<p><h1 th:text="'Hello, ' + ${nome} + '!'"/></p>
+	
+	<!-- Cada link está programado para fazer uma requisição HTML GET  
+		para o servidor através do endpoint "/saudacao?nome=AlgumNome".
+		HelloWorldController.java vai localizar o método 
+		ola(String nome, Model model) que foi anotado para ser executado
+		neste endereço.
+		Como vamos passar por parâmetro o valor
+	-->
 	<p><a href="/saudacao?nome=João">Cumprimentar o João</a></p>
 	<p><a href="/saudacao?nome=Maria">Cumprimentar a Maria</a></p>
 	<p><a href="/saudacao?nome=Fernando">Cumprimentar o Fernando</a></p>
