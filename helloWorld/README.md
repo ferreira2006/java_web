@@ -17,7 +17,7 @@ Criar uma aplicação web usando **JAVA** (**Spring** **Framework** e **Thymelea
 # 1 Criar um aplicativo Spring Boot e selecionar dependências
 Acesse https://start.spring.io/ e configure um novo projeto conforme a figura abaixo:
 
->>imagem do https://start.spring.io/
+[![Imagem da janela de configuração de um novo projeto no site do spring boot](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image5.png)](#)
 
 **Project**: Maven
 **Language**: Java
@@ -43,11 +43,11 @@ Exemplo de importação para o eclipse via *Menu File -> Import Projects from Fi
 
 Para importação via Maven vá em *File -> Import -> Maven -> Existing Maven Project -> Browse (localize o diretório do projeto) -> Finish*.
 
->>imagem do local de importaçao no eclipse
+[![Imagem da janela de importação de projetos do eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image4.png)](#)
 
 Após as atualizações e importações do **Maven** a estrutura da sua aplicação estará pronta, você economizou tempo e pode se dedicar a codificar suas regras de negócio. 
 
->>imagem da estrutura iniical do projeto
+[![Imagem da IDE eclipse com a estrutura completa do projeto](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image3.png)](#)
 
 # 2 Criar um Controller Spring MVC 
 Para os propósitos da nossa aplicação vamos criar um **Controller** (*HelloWordController.java*):
@@ -116,11 +116,11 @@ Vamos criar uma página inicial (*index.html*) para nossa aplicação em *resour
 # 5 Rodando a aplicação
 Para executar a aplicação rode a classe **HelloWorldController.java** (classe principal da aplicação, anotada com *@SpringBootApplication*) como uma **Aplicação Java**. Após o *Spring* levantar o *Tomcat* acesse no navegador o endereço http://localhost:8080
 
->>imagem do naveador na página inicial da aplicação
+[![Imagem do navegador acessando com sucesso a página inicial](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image2.png)](#)
 
 Clicando no link **CLIQUE AQUI** é de se esperar que seja apresentada no navegador a página semelhante a da figura abaixo:
 
->>imagem do naveador na página com a lesi=tagem de nomes
+[![Imagem do navegador executanto com sucesso a aplicação](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image1.png)](#)
 
 Ao clicar em um link com um nome na página *saudacao.html* será solicitado (**HTTP GET**) ao servidor a exibição desta mesma página, porém passando como parâmetro o nome que deseja exibir na tag de saudação **Hello, World!**
 
