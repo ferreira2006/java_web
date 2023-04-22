@@ -96,6 +96,8 @@ Crie o arquivo helloworld.html no diretório resources/templates e altere o cont
 
 O Trecho ``xmlns:th="http://www.thymeleaf.org"`` adiciona capacidade de uso do **Thymeleaf** no arquivo **HTML**.
  
+**Spring MVC** consegue conectar as propriedades de um objeto aos inputs de um formulário através do **Thymeleaf**.
+ 
 A expressão thymeleaf ``th:text`` altera a tag html ``<h1\>``para que receba o conteúdo do **Model** repassado pelo *HelloWorldController.java*. 
 
 Vamos criar uma página inicial (*index.html*) para nossa aplicação em *resources/static*:
