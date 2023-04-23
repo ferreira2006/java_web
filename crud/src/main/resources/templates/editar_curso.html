@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>Editar Curso</title>
+</head>
+<body>
+	<div align="center">
+		<h1 th:text="'Editando o curso: '+${curso.nome}">Editar o curso</h1>
+		<br />
+		<form action="#" th:action="@{/salvar}" th:object="${curso}"
+			method="post">
+			<table>
+				<tr>
+					<td>Código do Curso:</td>
+					<td><input type="text" th:field="*{id}" readonly="readonly" /></td>
+				</tr>
+				<tr>
+					<td>Nome do Curso:</td>
+					<td><input type="text" th:field="*{nome}" /></td>
+				</tr>
+				<tr>
+					<td>Professor:</td>
+					<td><input type="text" th:field="*{professor}" /></td>
+				</tr>
+				<tr>
+					<td>Carga Horária:</td>
+					<td><input type="text" th:field="*{cargaHoraria}" /></td>
+				</tr>
+
+				<tr>
+					<td colspan="2" align="right">
+						<button type="submit">Salvar</button>
+						<button type="button" onclick="location.href='/'">Cancelar</button>
+					</td>
+				</tr>
+			</table>
+
+		</form>
+	</div>
+</body>
+</html>

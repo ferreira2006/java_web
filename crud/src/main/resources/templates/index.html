@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+<title>Gerenciamento de cursos</title>
+</head>
+<body>
+	<div align="center">
+		<h1>Lista de Cursos</h1>
+		<a href="/novo">Cadastre um novo curso</a> <br /> <br />
+		<table border="1">
+
+			<thead>
+				<tr>
+					<th>Cód. Curso</th>
+					<th>Nome</th>
+					<th>Professor(a)</th>
+					<th>Carga horária</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="curso : ${listaDeCursos}">
+					<td th:text="${curso.id}">Cód. Curso</td>
+					<td th:text="${curso.nome}">Nome</td>
+					<td th:text="${curso.professor}">Professor</td>
+					<td th:text="${curso.cargaHoraria}">Carga horária</td>
+					<td><a th:href="@{/editar/{id}(id=${curso.id})}">Editar</a>
+						&nbsp;&nbsp;&nbsp; 
+					<a th:href="@{/deletar/{id}(id=${curso.id})}">Apagar</a>
+					</td>
+				</tr>
+			</tbody>
+
+
+		</table>
+	</div>
+</body>
+</html>
