@@ -45,7 +45,6 @@ public class CursoController {
 	    ModelAndView mav = new ModelAndView("editar_curso");
 	    Curso curso  = cursoService.get(id);
 	    mav.addObject("curso", curso);
-	     
 	    return mav;
 	}
 	

@@ -11,3 +11,8 @@
 ### 1 - Crie uma nova base de dados:
 	CREATE SCHEMA `crud`;
 
+### 2 - Altere o usuário e senha (Mysql) no arquivo application.properties
+	
+	spring.datasource.url=jdbc:mysql://localhost:3306/crud
+	spring.datasource.username=USUARIO_BD
+	spring.datasource.password=SENHA_BD
