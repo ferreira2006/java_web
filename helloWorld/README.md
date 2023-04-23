@@ -47,7 +47,7 @@ Para importação via Maven vá em *File -> Import -> Maven -> Existing Maven Pr
 
 Após as atualizações e importações do **Maven** a estrutura da sua aplicação estará pronta, você economizou tempo e pode se dedicar a codificar suas regras de negócio. 
 
-[![Imagem da IDE eclipse com a estrutura completa do projeto](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image3.png)](#)
+[![Imagem da IDE eclipse com a estrutura completa do projeto](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image2.png)](#)
 
 # 2 Criar um Controller Spring MVC 
 Para os propósitos da nossa aplicação vamos criar um **Controller** (*HelloWordController.java*):
@@ -118,7 +118,7 @@ Vamos criar uma página inicial (*index.html*) para nossa aplicação em *resour
 # 5 Rodando a aplicação
 Para executar a aplicação rode a classe **HelloWorldController.java** (classe principal da aplicação, anotada com *@SpringBootApplication*) como uma **Aplicação Java**. Após o *Spring* levantar o *Tomcat* acesse no navegador o endereço http://localhost:8080
 
-[![Imagem do navegador acessando com sucesso a página inicial](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image2.png)](#)
+[![Imagem do navegador acessando com sucesso a página inicial](/../../../../ferreira2006/imagens/blob/master/gitimg/img/image3.png)](#)
 
 Clicando no link **CLIQUE AQUI** é de se esperar que seja apresentada no navegador a página semelhante a da figura abaixo:
 
