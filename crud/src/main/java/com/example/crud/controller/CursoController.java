@@ -42,10 +42,10 @@ public class CursoController {
 	
 	@GetMapping("/editar/{id}")
 	public ModelAndView exibirEditarProduto(@PathVariable(name = "id") Long id) {
-	    ModelAndView mav = new ModelAndView("editar_curso");
+	    ModelAndView modelAndView = new ModelAndView("editar_curso");
 	    Curso curso  = cursoService.get(id);
-	    mav.addObject("curso", curso);
-	    return mav;
+	    modelAndView.addObject("curso", curso);
+	    return modelAndView;
 	}
 	
 	@GetMapping("/deletar/{id}")

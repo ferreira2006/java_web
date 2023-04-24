@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CrudApplication {
 
 	public static void main(String[] args) {
+		/* Spring Framework levantará  a aplicação provendo todos os artefatos
+		 * necessários incluindo um servidor Tomcat embutido */
 		SpringApplication.run(CrudApplication.class, args);
 	}
 
