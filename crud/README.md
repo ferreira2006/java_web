@@ -59,7 +59,7 @@ Exemplo de importação para o eclipse via *Menu File -> Import Projects from Fi
 
 ### 4 - 3 Localize o projeto descompactado no seu computador (provavelmente pasta de Downloads):
 
-[![Imagem da janela de localização de arquivos no computador](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png)](#)
+[![Imagem da janela de localização de arquivos no computador](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/04_import_mavenCapturar.png)](#)
 
 ### 4 - 4 Importe o projeto:
 
