@@ -7,16 +7,26 @@
 - **Hibernate**: Framework ORM que implementação JPA, seu uso é evidenciado nas anotações das Entidades e nas validações.
 - **MySQL**: Será nossa base de dados.
 
+---
+## Pra quem tem pressa:
+	1 - Faça download do projeto https://github.com/ferreira2006/java_web.git;
+	2 - Importe o projeto **/crud** para sua IDE;
+	3 - Crie o um banco de dados com o nome **crud**
+	4 - Altere o usuario e senha do BD no arquivo de configuração **application.properties**
+	5 - Acesse no navegador o endereço http://localhost:9090
+	6 - Se tudo correu bem deve aparecer no navegador uma página semelhante a da figura:
+	
+	[![Imagem da página iniical da aplicação](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/00_localhost.png)](#)
 
 ### 1 - Crie uma nova base de dados:
 	CREATE SCHEMA `crud`;
 
-### 2 - Altere o usuário e senha (Mysql) no arquivo application.properties
+### 2 - Para rodar a aplicação que eu disponobilizei altere o usuário e senha (Mysql) no arquivo application.properties
 	
 	spring.datasource.url=jdbc:mysql://localhost:3306/crud
 	spring.datasource.username=USUARIO_BD
 	spring.datasource.password=SENHA_BD
-	
+---	
 ### 3 - 1 Crie um aplicativo Spring Boot e selecionar dependências
 Acesse https://start.spring.io/ e configure um novo projeto conforme a figura abaixo:
 
