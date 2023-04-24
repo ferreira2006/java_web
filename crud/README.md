@@ -44,24 +44,24 @@ Obs: Aqui é o local onde você indicará também outras dependências quando ti
 
 Clique em **GENERATE (CTRL+ENTER)**
 
-Extraia o projeto do arquivo zipado (**crud.zip**) que foi baixado em seu computador.
+### 3 - 2 Extraia o projeto do arquivo zipado (**crud.zip**) que foi baixado em seu computador.
 
 [![Imagem do arquivo zip criado no Spring Boot](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/02_crd.zip.png)](#)
 
-Importe o projeto (**crud**) para sua **IDE** favorita (Pode importar como um **project from File System** (Menu File) ou como **Projeto Maven** (Menu Import), o resultado será o mesmo)
+### 3 - 3 Importe o projeto (**crud**) para sua **IDE** favorita (Pode importar como um **project from File System** (Menu File) ou como **Projeto Maven** (Menu Import), o resultado será o mesmo)
 Exemplo de importação para o eclipse via *Menu File -> Import Projects from File System…*:
 
 [![Imagem da janela de importação de projetos do eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/03_import.png)](#)
 
-Para importação via Maven vá em *File -> Import -> Maven -> Existing Maven Project -> Browse (localize o diretório do projeto) -> Finish*.
+### 3 - 4 Para importação via Maven vá em *File -> Import -> Maven -> Existing Maven Project -> Browse (localize o diretório do projeto) -> Finish*.
 
 [![Imagem da janela de importação de projetos Maven no eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/04_import_mavenCapturar.png)](#)
 
-Localize o projeto descompactado no seu computador (provavelmente pasta de Downloads):
+### 3 - 5 Localize o projeto descompactado no seu computador (provavelmente pasta de Downloads):
 
 [![Imagem da janela de localização de arquivos no computador](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png)](#)
 
-Importe o projeto:
+### 3 - 6 Importe o projeto:
 
 [![Imagem da janela de importação de projetos no eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png)](#)
 
