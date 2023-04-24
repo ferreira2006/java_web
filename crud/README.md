@@ -15,7 +15,7 @@
 	2 - Importe o projeto **/crud** para sua IDE;
 	3 - Crie o um banco de dados com o nome **crud**
 	4 - Altere o usuario e senha do BD no arquivo de configuração **application.properties**
-	5 - Rode a classe ``CrudApplication.java`` como **Aplicação Java** ou **Spring Boot App**
+	5 - Rode a classe CrudApplication.java como **Aplicação Java** ou **Spring Boot App**
 	6 - Acesse no navegador o endereço http://localhost:9090
 	7 - Se tudo correu bem deve aparecer no navegador uma página semelhante a da figura:
 	
