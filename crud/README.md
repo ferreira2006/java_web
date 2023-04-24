@@ -39,7 +39,7 @@ Adicione as dependências:
 	- **Spring Data JPA**
 	- **MySQL Driver**
 	- **Spring Boot DevTools** 
-	(*Ctrl+B pesquise pelo nome das dependências*).
+	(*Ctrl+B e pesquise pelo nome das dependências*).
 Obs: Aqui é o local onde você indicará também outras dependências quando tiver conhecimento prévio da necessidade da mesma, ex: **JPA**, **Mysql** e outras. Caso uma dependência surja após o projeto já ter sido criado, basta acrescentar a mesma no arquivo **pom.xml** que o Maven cuidará da importação.
 
 Clique em **GENERATE (CTRL+ENTER)**
@@ -48,20 +48,20 @@ Clique em **GENERATE (CTRL+ENTER)**
 
 [![Imagem do arquivo zip criado no Spring Boot](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/02_crd.zip.png)](#)
 
-### 3 - 3 Importe o projeto (**crud**) para sua **IDE** favorita (Pode importar como um **project from File System** (Menu File) ou como **Projeto Maven** (Menu Import), o resultado será o mesmo)
+### 4 - 1 Importe o projeto (**crud**) para sua **IDE** favorita (Pode importar como um **project from File System** (Menu File) ou como **Projeto Maven** (Menu Import), o resultado será o mesmo)
 Exemplo de importação para o eclipse via *Menu File -> Import Projects from File System…*:
 
 [![Imagem da janela de importação de projetos do eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/03_import.png)](#)
 
-### 3 - 4 Para importação via Maven vá em *File -> Import -> Maven -> Existing Maven Project -> Browse (localize o diretório do projeto) -> Finish*.
+### 4 - 2 Para importação via Maven vá em *File -> Import -> Maven -> Existing Maven Project -> Browse (localize o diretório do projeto) -> Finish*.
 
 [![Imagem da janela de importação de projetos Maven no eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/04_import_mavenCapturar.png)](#)
 
-### 3 - 5 Localize o projeto descompactado no seu computador (provavelmente pasta de Downloads):
+### 4 - 3 Localize o projeto descompactado no seu computador (provavelmente pasta de Downloads):
 
 [![Imagem da janela de localização de arquivos no computador](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png)](#)
 
-### 3 - 6 Importe o projeto:
+### 4 - 4 Importe o projeto:
 
 [![Imagem da janela de importação de projetos no eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png)](#)
 
