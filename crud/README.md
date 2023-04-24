@@ -7,8 +7,10 @@
 - **Hibernate**: Framework ORM que implementação JPA, seu uso é evidenciado nas anotações das Entidades e nas validações.
 - **MySQL**: Será nossa base de dados.
 
+
 ---
-## Pra quem tem pressa:
+## Pra quem tem ***PRESSA***:
+---
 	1 - Faça download do projeto https://github.com/ferreira2006/java_web.git;
 	2 - Importe o projeto **/crud** para sua IDE;
 	3 - Crie o um banco de dados com o nome **crud**
@@ -16,9 +18,11 @@
 	5 - Acesse no navegador o endereço http://localhost:9090
 	6 - Se tudo correu bem deve aparecer no navegador uma página semelhante a da figura:
 	
-	[![Imagem da página iniical da aplicação](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/00_localhost.png)](#)
+[![Imagem da página iniical da aplicação](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/00_localhost.png)](#)
 	
-
+---
+## Pra quem quer ir na ***MANHA***:
+---
 ### 1 - Crie uma nova base de dados:
 	CREATE SCHEMA `crud`;
 
@@ -81,4 +85,6 @@ Após as atualizações e importações do **Maven** a estrutura da sua aplicaç
 
 [![Imagem da IDE eclipse com a estrutura completa do projeto](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/08_estrutura_projeto.png)](#)
 
-
+---
+### Replique os arquivos do projeto
+### Os cógigos interessantes e/ou importantes estão comentados
