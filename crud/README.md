@@ -59,12 +59,13 @@ Exemplo de importação para o eclipse via *Menu File -> Import Projects from Fi
 
 ### 4 - 3 Localize o projeto descompactado no seu computador (provavelmente pasta de Downloads):
 
-[![Imagem da janela de localização de arquivos no computador](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png.png)](#)
+[![Imagem da janela de localização de arquivos no computador](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/05_localizar_projeto.png)](#)
 
 ### 4 - 4 Importe o projeto:
 
 [![Imagem da janela de importação de projetos no eclipse](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/07_importar_projeto.png)](#)
 
+### 5 - O Maven irá atualizar e construir nossa aplicação, fornecendo esttrutura e dependências.
 Após as atualizações e importações do **Maven** a estrutura da sua aplicação estará pronta, você economizou tempo e pode se dedicar a codificar suas regras de negócio. 
 
 [![Imagem da IDE eclipse com a estrutura completa do projeto](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/08_estrutura_projeto.png)](#)
