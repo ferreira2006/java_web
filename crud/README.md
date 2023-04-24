@@ -17,6 +17,7 @@
 	6 - Se tudo correu bem deve aparecer no navegador uma página semelhante a da figura:
 	
 	[![Imagem da página iniical da aplicação](/../../../../ferreira2006/imagens/blob/master/gitimg/imagens_Crud_Spring_MVC/00_localhost.png)](#)
+	
 
 ### 1 - Crie uma nova base de dados:
 	CREATE SCHEMA `crud`;
