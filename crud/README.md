@@ -88,4 +88,4 @@ Após as atualizações e importações do **Maven** a estrutura da sua aplicaç
 
 ---
 ### Replique os arquivos do projeto
-### Os cógigos interessantes e/ou importantes estão comentados
+### Os códigos interessantes e/ou importantes estão comentados
