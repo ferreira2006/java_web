@@ -7,6 +7,6 @@
 ## 2 [CRUD Java WEB - Spring Boot - Spring MVC – Spring Data JPA – ThymeLeaf - Hibernate - MySQL!](https://github.com/ferreira2006/java_web/tree/main/crud)
 
 
-## 3 [API CRUD - Spring Boot - Spring MVC – Spring Data JPA – Hibernate - H2](https://github.com/ferreira2006/java_web/tree/main/tarefas)
+## 3 [API CRUD - Spring Boot - Spring MVC – Spring Data JPA – Hibernate - H2 Database](https://github.com/ferreira2006/java_web/tree/main/tarefas)
 
 ## 4 
