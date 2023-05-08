@@ -1,10 +1,10 @@
-package com.eventoapp.eventoapp;
+package net.ferreira2006.seguranca;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EventoappApplicationTests {
+class SegurancaApplicationTests {
 
 	@Test
 	void contextLoads() {
