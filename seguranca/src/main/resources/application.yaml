@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           google:
-            client-id: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            client-secret: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            client-id: ffffffffffffffffffffffffff
+            client-secret: ffffffffffffffffffffffffffffSS
       resourceserver:
         jwt:
           issuer-uri: https://accounts.google.com
